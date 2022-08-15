@@ -1,0 +1,10 @@
+<h1 id = "fg">Stupid Coaching</h1>
+<div class="question">
+  <p><%=@question%></p>
+  <p>-You</p>
+</div>
+<div class="answer">
+  <p><strong><%= @answer %></strong></p>
+  <p>-Your coach</p>
+</div>
+<%= link_to "Ask a new question", ask_path , class:"link" %>
